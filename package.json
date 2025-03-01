@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "babel-runtime": "^6.26.0",
     "next": "15.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-typed": "^2.0.12",
+    "react-typing-animation": "^1.6.2",
     "react-typing-effect": "^2.0.5",
     "react-typist": "^2.0.5",
     "swiper": "^11.2.4"

@@ -32,17 +32,12 @@ export default function Hero() {
       <div className="relative flex flex-col items-center justify-center h-full text-center z-10">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
           <Typist avgTypingDelay={50} cursor={{ show: true, blink: true, element: '❤️' }}>
-            Feliz Aniversário de Namoro meu amor! 💖
-            <Typist.Backspace count={35} delay={1000} />
-            Mais um ano de amor e felicidade. 💫
-            <Typist.Backspace count={32} delay={1000} />
-            Te amo hoje e sempre! ❤️
-            <Typist.Backspace count={25} delay={1000} />
+            Feliz Aniversário de Namoro meu amor!
+            <Typist.Backspace count={40} delay={1000} />
             Muito brega mas deu um trabalhinho nao me xinga
-            <Typist.Backspace count={39} delay={1000} />
+            <Typist.Backspace count={48} delay={1000} />
           </Typist>
         </h1>
-        <Heart />
       </div>
     </section>
   );
